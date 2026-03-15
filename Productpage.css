@@ -1,0 +1,173 @@
+body{
+
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+nav{
+
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+    }
+nav a:hover{
+    color: #bbb;
+
+}    
+
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+
+    margin-left: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+
+
+}
+
+.hero{
+
+      height: 80vh;
+
+      display: flex;
+      flex-direction: column;
+
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+
+      background: linear-gradient(to bottom, #ffffff,#f2f2f2)
+
+
+}
+
+.hero h1{
+
+        font-size: 48px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+
+}
+
+.hero p{
+
+        font-size: 18px;
+        color: grey;
+}
+
+.btn{
+    margin-top: 20;
+    padding: 12px 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.hero img{
+    width: 350px;
+    margin-top: 30px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0,0.2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Features{
+    text-align: center;
+    padding: 60px 20px;
+    
+
+}
+
+.Feature-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.Feature{
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    transition: 0.3s;
+        }
+   
+
+.Features h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.Feature:hover{
+    transform: translateY(-8px);
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+}
+
+.btn:hover{
+    background-color: #333;
+    transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+}
+
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+.Social{
+
+    margin-top: 10px;
+}
+
+.social a{
+    margin: 0 10px;
+}
