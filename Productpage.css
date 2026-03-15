@@ -108,13 +108,13 @@ a{
    
    }
 
-.Features{
+.features{
     text-align: center;
     padding: 60px 20px;
 
 }
 
-.Feature-container{
+.feature-container{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -122,7 +122,7 @@ a{
     flex-wrap: wrap;
 }
 
-.Feature{
+.feature{
     background-color: #f5f5f5;
     padding: 20px;
     width: 220px;
@@ -131,13 +131,13 @@ a{
         }
    
 
-.Features h2{
+.features h2{
     text-align: center;
     margin-bottom: 20px;
     font-size: 32px;
 }
 
-.Feature:hover{
+.feature:hover{
     transform: translateY(-8px);
     -webkit-transform: translateY(-8px);
     -moz-transform: translateY(-8px);
