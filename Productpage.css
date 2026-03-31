@@ -209,4 +209,12 @@ a{
     width: 250px;
 }
 
+#home h1{
+
+    font-size: 1.2rem;
 }
+#home p{
+    font-size: 0.8rem;
+}
+}
+
